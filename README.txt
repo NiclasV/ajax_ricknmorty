@@ -6,3 +6,4 @@ Simple application to find information about Episodes, characters and locations 
 Made with HTML, CSS (sass + bootstrap) and Javascript
 
 API used: https://rickandmortyapi.com/documentation
+Visit it here: https://niclasv.github.io/ajax_ricknmorty/
