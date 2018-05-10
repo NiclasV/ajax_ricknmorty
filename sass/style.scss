@@ -1,0 +1,239 @@
+$myBlue: #35609f;
+$myGreen: #429942;
+$myRed: #a42525;
+$backgroundColor:  #191919;
+
+body {
+    background: $backgroundColor;
+    margin: 0 auto;
+}
+
+.site-wrap {
+    //border: 2px solid blue;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*******************
+---- NAVIGATION ----
+*******************/
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+.logo-container {
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+/*******************
+----- SECTIONS -----
+*******************/
+
+main {
+    max-width: 960px;
+}
+
+#section-flex {
+    align-content: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.charInfo {
+    background: #FFFFFF;
+    padding: 15px;
+    display: flex;
+
+}
+
+.info-container {
+    width: 40%;
+    color: #000000;
+} p {
+    margin-left: 10px;
+}
+
+article {
+    background: #ebebeb;
+    color: #000000;
+    margin: 10px 5px 20px 5px;
+    padding: 5px;
+    text-align: center;
+    width: 23.5%;
+    float: left;
+    padding-bottom: 10px;
+    min-height: 180px;
+} .info-card {
+    min-height: 450px;
+}
+
+.img-container {
+    border: 1px solid $backgroundColor;
+    box-sizing: border-box;
+} 
+
+.img-container-specific {
+    border: 1px solid $backgroundColor;
+    box-sizing: border-box;
+    width: 40%;
+    overflow: hidden;
+} 
+
+.clearfix {
+    clear: both;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+footer {
+    height: 150px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+} 
+footer a {
+    color: #FFFFFF;
+} 
+footer a:hover {
+    color: #FFFFFF;
+}
+
+#nav-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    margin-bottom: 40px;
+}
+/*******************
+----- BUTTONS ------
+*******************/
+
+button {
+    margin-right: 30px;
+
+}
+
+.btn-outline-primary {
+    color: $myBlue;
+    border-color: $myBlue;
+}
+
+.btn-outline-primary:hover {
+    background: $myBlue;
+}
+
+.btn-outline-success {
+    color: $myGreen;
+    border-color: $myGreen;
+}
+
+.btn-outline-success:hover {
+    background: $myGreen;
+    border-color: $myGreen;
+}
+
+.btn-outline-danger {
+    color: $myRed;
+    border-color: $myRed;
+}
+
+
+.btn-outline-danger:hover {
+    background: $myRed;
+    border-color: $myRed;
+}
+
+
+/*******************
+---- LOGO COLOR ----
+*******************/
+
+.episode-blue {
+    fill: $myBlue;
+    transition: fill 0.7s ease;
+}
+
+.character-green {
+    fill: $myGreen;
+    transition: fill 0.7s ease;
+}
+
+.location-red {
+    fill: $myRed;
+    transition: fill 0.7s ease;
+}
+
+/*******************
+---- TYPOGRAPHY ----
+*******************/
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2.4em;
+    color: $backgroundColor;
+    font-weight: 700;
+    margin: 10px;
+    line-height: 0.9em;
+}
+
+h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.8em;
+    color: $backgroundColor;
+    font-weight: 700;
+    margin: 10px;
+    line-height: 0.9em;
+}
+
+span {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.95em;
+    line-height: 0.8em;
+}
+
+.info {
+    font-weight: 700;
+}
+
+.info-container span {
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+
+/** MOBIL MEDIA QUEERY **/
+@media screen and (max-width: 600px) {
+
+article {
+    width: 95%;
+}
+
+.info-card {
+    min-height: 40px;
+}
+
+button {
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+}
+
+
+/** TABLET MEDIA QUEERY **/
+@media screen
+and (min-width: 600px)
+and (max-width: 992px) {
+
+
+}
