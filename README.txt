@@ -1,4 +1,6 @@
-ResRobot - Reseplanerare
+By Niclas Victorsson
 
-API-nyckel
-db72b01c-9439-4cf5-a50e-2b9d60fefd4b
+First try on working with an API
+Simple application to find information about Episodes, characters and locations from the series.
+
+Made with HTML, CSS (sass + bootstrap) and Javascript
